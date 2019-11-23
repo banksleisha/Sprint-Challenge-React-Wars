@@ -1,7 +1,8 @@
 import React from 'react';
+import SwList from "./SwList";
 import './App.css';
 
-const App = () => {
+export default function App() {
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
 
@@ -12,8 +13,9 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+      <SwList />
     </div>
   );
 }
 
-export default App;
+
